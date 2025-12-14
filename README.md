@@ -1,10 +1,10 @@
-🔋 Battery Analytics Dashboard
+**🔋 Battery Analytics Dashboard**
 
-Zenfinity Energy – Internship Assessment
+**Zenfinity Energy – Internship Assessment**
 
 An interactive, web-based Battery Analytics Dashboard built using Streamlit and Plotly, designed to visualize battery usage patterns, performance metrics, temperature behavior, safety alerts, and long-term operational trends using the Zenfinity Battery Snapshots API.
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project was developed as part of the Zenfinity Energy Internship Assessment.
 The goal is to analyze battery telemetry data to understand:
@@ -17,7 +17,8 @@ How raw telemetry can be converted into meaningful engineering insights
 
 The dashboard emphasizes clarity, usability, and real-world interpretability rather than raw data display.
 
-🚀 Key Features
+**🚀 Key Features**
+
 1️⃣ Cycle Navigation
 
 Slider and dropdown to navigate across battery cycles
@@ -130,7 +131,7 @@ Normal usage
 
 Deep discharge behavior
 
-📈 Long-Term Analysis & Insights
+📈 **Long-Term Analysis & Insights**
 
 Beyond individual cycles, the dashboard performs cross-cycle analysis to identify broader operational patterns.
 
@@ -215,7 +216,7 @@ Average operating temperature
 
 These provide a high-level operational snapshot of the battery.
 
-🖥️ Dashboard Screenshots
+**🖥️ Dashboard Screenshots**
 
 ## 📸 Dashboard Preview
 
@@ -239,7 +240,7 @@ These provide a high-level operational snapshot of the battery.
 
 ![Trends](screenshots/long_term_trends.png)
 
-🧠 Tech Stack
+**🧠 Tech Stack**
 
 Python
 
@@ -251,7 +252,7 @@ Pandas – Data processing
 
 Requests – API communication
 
-⚙️ How to Run Locally -
+**⚙️ How to Run Locally -**
 
 1️⃣ Clone the Repository
 git clone https://github.com/ananya1510/battery-analytics-dashboard.git

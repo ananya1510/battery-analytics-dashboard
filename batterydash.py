@@ -411,13 +411,17 @@ def main():
                 y=df_trends['total_distance'],
                 mode='markers',
                 marker=dict(
-                    size=df_trends['cycle_duration_hours'].clip(upper=50) / 2,  # Scale for visibility
+                    size=df_trends['cycle_duration_hours'].clip(upper=50) / 2,
                     color=df_trends['average_temperature'],
                     colorscale='RdYlBu_r',
                     showscale=True,
-                    colorbar=dict(title="Temp (°C)", titlefont=dict(color='white'), tickfont=dict(color='white')),
-                    line=dict(width=1, color='white')
+                    colorbar=dict(
+                        title=dict(text="Temp (°C)", font=dict(color="white")),
+                        tickfont=dict(color="white")
+                    ),
+                     line=dict(width=1, color='white')
                 ),
+
                 text=[f"Cycle {c}" for c in df_trends['cycle_number']],
                 hovertemplate='<b>Cycle %{text}</b><br>SOC Used: %{x:.1f}%<br>Distance: %{y:.2f} km<extra></extra>'
             ))

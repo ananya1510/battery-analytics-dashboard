@@ -256,7 +256,6 @@ Requests – API communication
 
 1️⃣ Clone the Repository
 git clone https://github.com/ananya1510/battery-analytics-dashboard.git
-cd battery-analytics-dashboard
 
 2️⃣ Install Dependencies
 pip install -r requirements.txt
